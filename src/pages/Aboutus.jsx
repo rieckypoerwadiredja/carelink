@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/fragments/hero/hero";
+import Hero from "../components/fragments/hero/Hero";
 import Caremate from "../components/fragments/Caremate";
 
 export default function Aboutus() {
