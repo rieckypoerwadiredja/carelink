@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CardPlan from "../components/elements/card/CardPlan";
-import Hero from "../components/fragments/hero/hero";
+import Hero from "../components/fragments/hero/Hero";
 import { Link } from "react-router";
 
 function PaymentPlan() {
