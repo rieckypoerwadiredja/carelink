@@ -6,28 +6,28 @@ const testimonials = [
       "Having Carelink with us has been a true blessing. My mother now wakes up with a smile, surrounded by people who treat her like family. She’s no longer alone, and knowing she’s in such caring hands gives our family peace of mind. The caregivers don’t just help—they genuinely care. Every visit, every meal, every small moment, they bring warmth and respect. I am deeply thankful for the joy and comfort they’ve brought into her life. It’s something we will always cherish.",
     name: "James Smith",
     company: "ABC Software",
-    image: "/assets/images/desc/testimoni/1.png",
+    image: "/assets/images/desc/testimoni/james.png",
   },
   {
     quote:
       "It’s never easy to trust someone else to take care of your loved ones—but Carelink changed that completely. From day one, I could see how much attention and kindness they gave to my father. They talked with him, listened to his stories, and made sure he felt valued every single day. Watching him grow more joyful, more at ease, and even regain his laughter—has meant the world to our family. We feel at peace knowing he’s not just cared for, but truly appreciated.",
     name: "Linda Johnson",
     company: "Family Member",
-    image: "/assets/images/desc/testimoni/2.png",
+    image: "/assets/images/desc/testimoni/linda.jpg",
   },
   {
     quote:
       "What touched me most was how my grandma started sharing stories again—stories she hadn’t told in years. Carelink created such a comfortable environment that she felt safe, heard, and happy. The team’s patience and genuine interest made all the difference. It’s more than care; it’s companionship. They give their time, their hearts, and their smiles. We’re forever grateful for the moments they’ve given back to her, and to us as a family.",
     name: "Carla Gomez",
     company: "Granddaughter",
-    image: "/assets/images/desc/testimoni/3.png",
+    image: "/assets/images/desc/testimoni/carla.jpg",
   },
   {
     quote:
       "As a mother, I never expected to find such warmth outside of home. At Carelink, I’m not just living—I’m connecting. The staff greet me every morning with kindness, they take time to know me, to listen, and laugh with me. They treat me with dignity and make every day feel special. It’s like having an extended family who truly cares. I feel safe, loved, and seen. This place brings light into my days, and joy into my heart.",
     name: "Martha Lane",
     company: "Resident",
-    image: "/assets/images/desc/testimoni/4.png",
+    image: "/assets/images/desc/testimoni/martha.jpg",
   },
 ];
 

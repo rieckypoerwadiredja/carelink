@@ -4,18 +4,15 @@ import { Link } from "react-router";
 function Nav() {
   return (
     <header className="border-b">
-      <div className="container mx-auto px-8 flex items-center justify-between py-4">
-        <Link to="/" className="flex items-center gap-2">
+      <div className="container mx-auto px-8 flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-x-2">
           <div className="text-primary">
             <img
-              className="h-12 aspect-square"
-              src="/assets/images/logo/logo.png"
+              className="h-20"
+              src="/assets/images/logo/logo-website.png"
               alt="logo"
             />
           </div>
-          <span className="text-3xl font-semibold text-[#D44043]">
-            Carelink
-          </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           <Link to="/" className="text-sm font-medium">

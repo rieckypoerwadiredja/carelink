@@ -188,7 +188,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
               <h2 className="text-4xl font-bold mb-6">
-                The Best Eldery Care Center For You
+                The Best Elderly Care Center For You
               </h2>
               <p className="text-gray-600 mb-8">
                 Discover peace of mind with Carelink. With heartfelt service and

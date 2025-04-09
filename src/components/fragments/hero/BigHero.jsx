@@ -21,9 +21,10 @@ export default function BigHero({ title, desc, img }) {
           <Link
             target="_blank"
             to="https://www.figma.com/proto/JvkQ1Vdd2TuzrLyFl590dz/Hydro-Hub?node-id=14-6743&t=toweK7EO8N52MplK-1&starting-point-node-id=14%3A6743"
-            className="cursor-pointer bg-[#D44043] text-white px-6 py-3 rounded hover:bg-[#c13e3e] transition-colors"
+            className="flex max-w-36 gap-x-2"
           >
-            Download Now
+            <img src="/assets/images/logo/appstore.png" alt="" />
+            <img src="/assets/images/logo/playstore.webp" alt="" />
           </Link>
         </div>
       </div>

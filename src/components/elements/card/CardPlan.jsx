@@ -14,7 +14,11 @@ function CardPlan({ plan }) {
         <div className="flex flex-col">
           {plan.oldPrice ? (
             <>
-              <span className="text-gray-600 line-through mr-2">
+              <span
+                className={`${
+                  plan.name === "Premium" ? "text-gray-200" : "text-gray-600"
+                } line-through mr-2`}
+              >
                 Rp.{plan.oldPrice}
               </span>
               <span className="text-3xl font-bold mb-2">Rp.{plan.price}</span>
@@ -59,9 +63,11 @@ function CardPlan({ plan }) {
               : "bg-[#D44043] text-white"
           }`}
         >
-          Start free 14-day Trial
+          Subscribe Now
         </button>
-        <p className="text-xs text-center mt-2">No credit card required</p>
+        <p className="text-xs text-center mt-2">
+          Your loved one’s safety and comfort are our top priority.
+        </p>
       </div>
     </div>
   );

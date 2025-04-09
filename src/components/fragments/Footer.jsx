@@ -11,14 +11,11 @@ function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="text-primary">
                 <img
-                  className="h-12 aspect-square"
-                  src="/assets/images/logo/logo.png"
+                  className="h-20"
+                  src="/assets/images/logo/logo-website.png"
                   alt="logo"
                 />
               </div>
-              <span className="text-3xl font-semibold text-[#D44043]">
-                Carelink
-              </span>
             </Link>
             <p className="text-gray-600 text-sm mb-4">
               Carelink offers senior care with compassion, love, and trust. We

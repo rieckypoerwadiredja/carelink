@@ -13,21 +13,50 @@ function PaymentPlan() {
         price: "1.400.000",
         oldPrice: null,
         benefits: [
-          { name: "Access to CareMate Professional", status: "x" },
-          { name: "Access to CareMate Plus", status: "x" },
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
+
+          // Service & Scheduling
           {
             name: "Support for basic daily tasks with a set routine",
             status: "check",
           },
-
           {
             name: "Up to 56 service hours/month (7 visits, 8 hrs each)",
             status: "check",
           },
-          { name: "Family connection updates and alerts", status: "check" },
 
+          // Digital Support & Connectivity
+          { name: "24/7 Chat Support with CareMate", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
+            status: "check",
+          },
+          {
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
+            status: "check",
+          },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
+          { name: "Access to CareMate Plus", status: "x" },
+          { name: "Access to CareMate Professional", status: "x" },
           { name: "Exclusive access to HaloDoc", status: "x" },
-          { name: "Support for outdoor activities", status: "x" },
+          {
+            name: "Personalized daily schedules with more flexibility",
+            status: "x",
+          },
+          {
+            name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
+            status: "x",
+          },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "x",
+          },
         ],
       },
       {
@@ -35,27 +64,46 @@ function PaymentPlan() {
         price: "4.000.000",
         oldPrice: "5.600.000",
         benefits: [
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
+          { name: "Access to CareMate Plus", status: "check" },
           { name: "Access to CareMate Professional", status: "check" },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "check",
+          },
+
+          // Service & Scheduling
+          {
+            name: "Up to 1.568 service hours/month (14 visits/week)",
+            status: "check",
+          },
           {
             name: "Personalized daily schedules with more flexibility",
             status: "check",
           },
           {
-            name: "Priority scheduling with experienced companions",
-            status: "check",
-          },
-          {
-            name: "Up to 1.568 service hours/month (14 visits/week)",
-            status: "check",
-          },
-
-          { name: "Family connection updates and alerts", status: "check" },
-          { name: "Exclusive access to HaloDoc", status: "check" },
-          {
             name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
             status: "check",
           },
+
+          // Digital Support & Connectivity
           { name: "24/7 Chat Support with CareMate", status: "check" },
+          { name: "Exclusive access to HaloDoc", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
+            status: "check",
+          },
+          {
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
+            status: "check",
+          },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
         ],
       },
       {
@@ -63,21 +111,46 @@ function PaymentPlan() {
         price: "2.000.000",
         oldPrice: "2.800.000",
         benefits: [
-          { name: "Access to CareMate Professional", status: "x" },
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
           { name: "Access to CareMate Plus", status: "check" },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "check",
+          },
+
+          // Service & Scheduling
+          {
+            name: "Up to 784 service hours/month (14 visits, 14 hrs total)",
+            status: "check",
+          },
           {
             name: "Personalized daily schedules with more flexibility",
             status: "check",
           },
           {
-            name: "Priority scheduling with experienced companions",
+            name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
+            status: "check",
+          },
+
+          // Digital Support & Connectivity
+          { name: "24/7 Chat Support with CareMate", status: "check" },
+          { name: "Exclusive access to HaloDoc", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
             status: "check",
           },
           {
-            name: "Up to 784 service hours/month (14 visits, 14 hrs total)",
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
             status: "check",
           },
-          { name: "Family connection updates and alerts", status: "check" },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
+          { name: "Access to CareMate Professional", status: "x" },
         ],
       },
     ],
@@ -85,24 +158,53 @@ function PaymentPlan() {
     yearly: [
       {
         name: "Basic",
-        price: "12.500.000",
-        oldPrice: "13.440.000",
+        price: "13.440.000",
+        oldPrice: "16.800.000",
         benefits: [
-          { name: "Access to CareMate Professional", status: "x" },
-          { name: "Access to CareMate Plus", status: "x" },
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
+
+          // Service & Scheduling
           {
             name: "Support for basic daily tasks with a set routine",
             status: "check",
           },
-
           {
             name: "Up to 56 service hours/month (7 visits, 8 hrs each)",
             status: "check",
           },
-          { name: "Family connection updates and alerts", status: "check" },
 
+          // Digital Support & Connectivity
+          { name: "24/7 Chat Support with CareMate", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
+            status: "check",
+          },
+          {
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
+            status: "check",
+          },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
+          { name: "Access to CareMate Plus", status: "x" },
+          { name: "Access to CareMate Professional", status: "x" },
           { name: "Exclusive access to HaloDoc", status: "x" },
-          { name: "Support for outdoor activities", status: "x" },
+          {
+            name: "Personalized daily schedules with more flexibility",
+            status: "x",
+          },
+          {
+            name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
+            status: "x",
+          },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "x",
+          },
         ],
       },
       {
@@ -110,27 +212,46 @@ function PaymentPlan() {
         price: "38.400.000", // 4jt x 12 - 20% discount
         oldPrice: "48.000.000",
         benefits: [
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
+          { name: "Access to CareMate Plus", status: "check" },
           { name: "Access to CareMate Professional", status: "check" },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "check",
+          },
+
+          // Service & Scheduling
+          {
+            name: "Up to 1.568 service hours/month (14 visits/week)",
+            status: "check",
+          },
           {
             name: "Personalized daily schedules with more flexibility",
             status: "check",
           },
           {
-            name: "Priority scheduling with experienced companions",
-            status: "check",
-          },
-          {
-            name: "Up to 1.568 service hours/month (14 visits/week)",
-            status: "check",
-          },
-
-          { name: "Family connection updates and alerts", status: "check" },
-          { name: "Exclusive access to HaloDoc", status: "check" },
-          {
             name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
             status: "check",
           },
+
+          // Digital Support & Connectivity
           { name: "24/7 Chat Support with CareMate", status: "check" },
+          { name: "Exclusive access to HaloDoc", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
+            status: "check",
+          },
+          {
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
+            status: "check",
+          },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
         ],
       },
       {
@@ -138,21 +259,46 @@ function PaymentPlan() {
         price: "19.200.000", // 2jt x 12 - 20% discount
         oldPrice: "24.000.000",
         benefits: [
-          { name: "Access to CareMate Professional", status: "x" },
+          // Access & Companion Tier
+          { name: "Access to CareMate", status: "check" },
           { name: "Access to CareMate Plus", status: "check" },
+          {
+            name: "Priority scheduling with experienced companions",
+            status: "check",
+          },
+
+          // Service & Scheduling
+          {
+            name: "Up to 784 service hours/month (14 visits, 14 hrs total)",
+            status: "check",
+          },
           {
             name: "Personalized daily schedules with more flexibility",
             status: "check",
           },
           {
-            name: "Priority scheduling with experienced companions",
+            name: "Assistance with outdoor activities (morning walks, shopping, recreation)",
+            status: "check",
+          },
+
+          // Digital Support & Connectivity
+          { name: "24/7 Chat Support with CareMate", status: "check" },
+          { name: "Exclusive access to HaloDoc", status: "check" },
+          {
+            name: "Family connection updates and alerts on the Carelink App",
             status: "check",
           },
           {
-            name: "Up to 784 service hours/month (14 visits, 14 hrs total)",
+            name: "Stay connected with real-time CCTV access through our Carelink App.",
             status: "check",
           },
-          { name: "Family connection updates and alerts", status: "check" },
+
+          // Safety & Peace of Mind
+          {
+            name: "Peace of mind guaranteed with continuous CCTV coverage",
+            status: "check",
+          },
+          { name: "Access to CareMate Professional", status: "x" },
         ],
       },
     ],
