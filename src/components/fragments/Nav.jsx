@@ -21,7 +21,9 @@ function Nav() {
           <Link to="/aboutus" className="text-sm font-medium">
             About Us
           </Link>
-
+          <Link to="/career" className="text-sm font-medium">
+            Career
+          </Link>
           <Link to="/payment-plan" className="text-sm font-medium text-primary">
             Cost & Payment
           </Link>

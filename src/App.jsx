@@ -6,6 +6,7 @@ import Footer from "./components/fragments/Footer";
 import Nav from "./components/fragments/Nav";
 import Home from "./pages/Home";
 import Aboutus from "./pages/Aboutus";
+import Career from "./pages/Career";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/payment-plan" element={<PaymentPlan />} />
         <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/career" element={<Career />} />
       </Routes>
       <Footer />
     </>
