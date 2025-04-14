@@ -44,6 +44,7 @@ function PaymentPlan() {
           },
           { name: "Access to CareMate Plus", status: "x" },
           { name: "Access to CareMate Professional", status: "x" },
+          { name: "Access to Nurse", status: "x" },
           { name: "Exclusive access to HaloDoc", status: "x" },
           {
             name: "Personalized daily schedules with more flexibility",
@@ -68,6 +69,7 @@ function PaymentPlan() {
           { name: "Access to CareMate", status: "check" },
           { name: "Access to CareMate Plus", status: "check" },
           { name: "Access to CareMate Professional", status: "check" },
+          { name: "Access to Nurse", status: "check" },
           {
             name: "Priority scheduling with experienced companions",
             status: "check",
@@ -151,6 +153,7 @@ function PaymentPlan() {
             status: "check",
           },
           { name: "Access to CareMate Professional", status: "x" },
+          { name: "Access to Nurse", status: "x" },
         ],
       },
     ],
